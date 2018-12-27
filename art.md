@@ -2,6 +2,7 @@
 layout: page
 title: Art
 permalink: /anastasiaprints/
+order: 2
 ---
 
 Instagram
