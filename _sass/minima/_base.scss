@@ -14,7 +14,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family; 
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
@@ -27,6 +27,9 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
+
+
+
 
 
 
@@ -88,7 +91,7 @@ li {
   } 
 }
 
- 
+  
 
 
 
@@ -113,16 +116,21 @@ a {
   }
 
   &:hover {
-    color: $brand-color;
+    color: $hover-color;
     text-decoration: none;
   }
 
-  .social-media-list &:hover {
-    text-decoration: none;
+  /*no link hover color on title */
+  .site-header &:hover{
+    color: $text-color; 
+  }  
 
-    .username {
-      text-decoration: underline;
-    }
+  .site-nav &:hover {
+    color: $hover-color;
+  }
+
+  .site-title &{
+  font: $head-font-family; 
   }
 }
 

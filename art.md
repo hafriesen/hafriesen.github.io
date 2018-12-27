@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Anastasia Prints
+title: Art
 permalink: /anastasiaprints/
 ---
 
