@@ -8,13 +8,13 @@ layout: default
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header> -->
 
-
   <header class="instagram-header">
 	{% if site.instagram_username %}
     <a href="https://instagram.com/{{ site.instagram_username }}"target="_blank" rel="noopener noreferrer">  <i class="fab fa-instagram"></i> &nbsp;&nbsp;@{{ site.instagram_username }} </a>
   	{% endif %}
     </header>
 
+	{% include photo-gallery.html %}
 
 
   <div class="post-content">
