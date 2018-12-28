@@ -262,3 +262,8 @@
     }
   }
 }
+
+.instagram-header
+  {
+    @include relative-font-size(2);
+  }
