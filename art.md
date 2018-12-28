@@ -1,6 +1,6 @@
 ---
 layout: artpage
-title: Art
+title: ART
 permalink: /anastasiaprints/
 order: 2
 ---
