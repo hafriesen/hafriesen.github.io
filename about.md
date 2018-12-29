@@ -6,17 +6,18 @@ order: 3
 ---
 
 
-Here's a link to a PDF of [my art](/uploads/Jan18.jpg).
+STUDENT
+I am pursuing my B. Eng in Electrical Engineering at Dalhousie University. I completed the first two years of my degree at Acadia University, receiving a Certificate of Applied Science. 
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+BIOMEDEDICAL ENGINEERING
+Currently, I am working at Sunnybrook Hospital in the Medventions Internship program. Previously, I was a summer research student at Holland Bloorview Kids Rehabilitation Hospital and the University of Toronto. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+DESIGNER
+I create designs and handletter words. 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+COMMUNITY-BUILDER 
+I co-manage a social collective Instagram account [@socialcalligraphy](https://www.instagram.com/socialcalligraphy/). 
 
 
-[jekyll-organization]: https://github.com/jekyll
+I thrive on challenging myself to learn new skills! Last year, I learned how to build a video game from scratch, design a 3D animated character, and code this website. 
+

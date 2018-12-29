@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-  border-top: 1px solid $grey-color-light;
-  border-bottom: 1px solid $grey-color-light;
+  border-top: 0px solid $grey-color-light;
+  border-bottom: 0px solid $grey-color-light;
   min-height: $spacing-unit * 2.5;
 
   // Positioning context for the mobile navigation icon
@@ -17,8 +17,7 @@
   letter-spacing: 0px;
   margin-top: 10px;
   float: left;
-  color: $title-color; 
-
+  color: $grey-color; 
 
 }
 
@@ -26,7 +25,7 @@
   @include relative-font-size(1);
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
-  margin-top: 10px; 
+  margin-top: 10px;  
 
   .nav-trigger {
       display: none;
@@ -106,7 +105,7 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  border-top: 0px solid $grey-color-light;
   padding: $spacing-unit/2 0;
 }
 
@@ -294,5 +293,24 @@
     width: 100%;
   }
 }
+}
+
+/**
+ *Home
+ */
+
+#intro{
+body {
+    margin: 0;
+    padding: 0;
+
+} 
+    position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 60%;
+    
 }
 

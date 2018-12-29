@@ -2,33 +2,20 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
-
+<div id = "intro" style="background-color:#ffb84d;color:black; opacity: 0.8; text-align:center; font-family: 'Fira Sans Condensed', sans-serif;">
+  <p style="margin:50px;">
+  <h1 style="color:white;"> Hello! I'm Anya.</h1>
+  <h2 style="margin-left: 100px; margin-right:100px"> I'm an <span style="color:white"> electrical engineering student </span>and <span style="color: white;"> designer</span>.</h2>
+  <h2 style="margin-left: 100px; margin-right:100px"> I try to find ways to combine my creativity and technical skills through interdisciplinary work, especially the merging of healthcare, engineering, and design. </h2>
+</p>
+<button style="background-color:#ffb84d;color:black; text-align:center; font-family: 'Fira Sans Condensed', sans-serif;">more about me</button>
 </div>
+
+
+<!--
+<div id="wrapper">
+    <img src="/uploads/instagramFeed/Jan18.jpg" />
+</div>​​​​​​​​​​-->
+
+
+
