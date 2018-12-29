@@ -277,8 +277,8 @@ table {
 /**
  *Buttons
  */
-button {
-  background-color: $background-color;
+.button {
+  background-color: #ffb84d;
   border: 3px solid white;
   padding: 10px 20px;
   text-align: center;
@@ -291,7 +291,12 @@ button {
   transition-duration: 0.4s;
 }
 
-button:hover {
+.button:hover {
   background-color: $background-color;
   color: black;
 }
+.button:active {
+  background-color: #ffb84d;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  }
