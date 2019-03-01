@@ -17,22 +17,14 @@
         </label>
 
         <!--sort order of page navigation-->
-        <div class="trigger">
-
-          <ul lass="page-link">
-          <li><a href="/work">WORK</a></li>
-          <li><a href="/anastasiaprints">ART</a></li>
-          <li><a href="/about">ABOUT</a></li>
-          <li><a href="/contact">CONTACT</a></li>
-          <li><a href="https://www.redbubble.com/people/anastasiaprints/shop" target="_blank" rel="noopener noreferrer">SHOP</a></li>
-          </ul>
-          <!--
+        <div class="trigger"> 
           {% assign sorted_pages = site.pages | sort:"order" %}
           {% for p in sorted_pages %}
           {% if p.order != -1 and p.order %}
           <a class="page-link" href="{{ p.url | relative_url }}">{{ p.title | escape }}</a>
           {% endif %}
-          {% endfor %} -->
+          {% endfor %} 
+          <li><a href="https://www.redbubble.com/people/anastasiaprints/shop" target="_blank" rel="noopener noreferrer">SHOP</a></li>
         </div>
       </nav>
     {%- endif -%}
